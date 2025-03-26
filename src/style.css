@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100dvw;
+    height: 100dvh;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    width: 100dvmin;
+    height: 100dvmin;
+}
+
+main {
+    display: grid;
+    place-content: center;
+}
+
+#danngen {
+    width: 60dvmin;
+    border-radius: 50%;
+}
+
+#phrase {
+    margin: 4dvmin;
+}
+
+#zettai {
+    width: 60dvmin;
+    border-radius: 50%;
+}
