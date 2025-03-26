@@ -4,6 +4,8 @@
 }
 
 html {
+    display: grid;
+    place-content: center;
     width: 100dvw;
     height: 100dvh;
 }
@@ -13,6 +15,7 @@ body {
     place-content: center;
     width: 100dvmin;
     height: 100dvmin;
+    background-color: #36393F;
 }
 
 main {
@@ -20,16 +23,21 @@ main {
     place-content: center;
 }
 
+
 #danngen {
-    width: 60dvmin;
-    border-radius: 50%;
+    width: 80dvmin;
+    border-radius: 50%; 
+    filter: invert(100%);
 }
 
 #phrase {
+    font-size: 5dvmin;
     margin: 4dvmin;
+    color: #DCDDDE;
 }
 
 #zettai {
-    width: 60dvmin;
+    width: 80dvmin;
     border-radius: 50%;
+    filter: invert(100%);
 }
