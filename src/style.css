@@ -15,11 +15,11 @@ header {
     place-content: center;
     grid-template-columns: 1fr 3fr 1fr;
     color: pink;
-    padding: 4dvmin;
 }
 
 h1 {
-    text-align: center;
+    display: grid;
+    place-content: center;
 }
 
 .mai {
@@ -54,9 +54,10 @@ main {
 }
 
 #danngen {
-    width: 50dvmin;
+    width: 60dvmin;
     border-radius: 50% 50% 30% 30%;
     filter: invert(100%);
+    border: 1px solid;
 }
 
 #phrase {
@@ -69,7 +70,15 @@ main {
 }
 
 #zettai {
-    width: 50dvmin;
+    width: 60dvmin;
     border-radius: 50% 50% 30% 30%;
     filter: invert(100%);
+    border: 1px solid;
 }
+
+footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 8fr 1fr;
+}
+
