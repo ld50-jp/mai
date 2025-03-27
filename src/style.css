@@ -10,34 +10,66 @@ html {
     height: 100dvh;
 }
 
+header {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 3fr 1fr;
+    color: pink;
+    padding: 4dvmin;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mai {
+    display: grid;
+    width: 16dvmin;
+    border-radius: 50%;
+    animation: 3s linear infinite rotation1;
+}
+
+@keyframes rotation1 {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 body {
     display: grid;
     place-content: center;
     width: 100dvmin;
     height: 100dvmin;
-    background-color: #36393F;
+    background-color: black;
 }
 
 main {
     display: grid;
     place-content: center;
+    place-items: center;
 }
 
-
 #danngen {
-    width: 80dvmin;
-    border-radius: 50%; 
+    width: 50dvmin;
+    border-radius: 50% 50% 30% 30%;
     filter: invert(100%);
 }
 
 #phrase {
     font-size: 5dvmin;
-    margin: 4dvmin;
     color: #DCDDDE;
+    border: 1px solid;
+    border-radius: 10% 10% 10% 10%;
+    padding: 2dvmin;
+    background-color: #1B1D21;
 }
 
 #zettai {
-    width: 80dvmin;
-    border-radius: 50%;
+    width: 50dvmin;
+    border-radius: 50% 50% 30% 30%;
     filter: invert(100%);
 }
